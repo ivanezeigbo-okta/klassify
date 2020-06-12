@@ -23,28 +23,30 @@ Before anything, make sure you have Python installed. This program is developed 
 
 1. Clone Git Repository
 
-`git clone https://github.com/ivanezeigbo-okta/klassify.git`
+  `git clone https://github.com/ivanezeigbo-okta/klassify.git`
 
 2. Enter Directory And Create Virtual Environment
 
-`python3 -m venv env`
+  `cd klassify`
+
+  `python3 -m venv env`
 
 3. Activate Virtual Environment
 
-`source env/bin/activate`
+  `source env/bin/activate`
 
 4. Download dependencies
 
-`pip install -r requirements.txt`
+  `pip install -r requirements.txt`
 
 5. Replace "myEmailAddress" and "myApiToken" in jira_bugs.sh with your Atlassian/JIRA credentials
 
-You may also change the URL since this URL is adapted to only look at bugs submitted under the project, OKTA. You may change or delete the project parameter.
+You may also change the URL since this URL is adapted to only look at bugs submitted under the project, OKTA. You may change  or delete the project parameter.
 
 6. Run jira_bugs.sh
 
-`bash jira_bugs.sh`
+  `bash jira_bugs.sh`
 
 7. Finally run the main file, run.py
 
-`python3 run.py`
+  `python3 run.py`
