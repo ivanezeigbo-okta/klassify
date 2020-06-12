@@ -1,4 +1,4 @@
-# klassify
+# Klassify
 Hackathon Project - Jira Bug Classification and Ranking
 
 Klassify is a program that polls bugs from our Jira through an API, groups and classifies these bugs based on some similarity.
