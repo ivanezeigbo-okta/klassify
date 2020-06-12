@@ -39,7 +39,7 @@ Before anything, make sure you have Python installed. This program is developed 
 
   `pip install -r requirements.txt`
 
-5. Replace "myEmailAddress" and "myApiToken" in jira_bugs.sh with your Atlassian/JIRA credentials
+5. Replace "$myEmailAddress" and "$myApiToken" in jira_bugs.sh with your Atlassian/JIRA credentials
 
 You may also change the URL since this URL is adapted to only look at bugs submitted under the project, OKTA. You may change  or delete the project parameter.
 
