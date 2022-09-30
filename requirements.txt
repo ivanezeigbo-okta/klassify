@@ -9,7 +9,7 @@ docutils==0.15.2
 gensim==3.8.3
 idna==2.9
 jmespath==0.10.0
-joblib==0.15.1
+joblib==1.2.0
 kiwisolver==1.2.0
 kneebow==0.1.1
 kneed==0.6.0
